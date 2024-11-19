@@ -214,8 +214,8 @@ footer {
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
-    width:auto;
-    margin:0;
+   max-width: 95%; /* Slightly wider for smaller screens */
+    padding: 0 5px; /* Adjust padding for smaller devices */
   }
 
   header, section, footer {
