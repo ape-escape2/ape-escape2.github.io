@@ -47,6 +47,7 @@ h3 {color: "black";
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(include = FALSE, echo = FALSE)
 ```
+
 ```{r Libraries,Data Import and Cleaning}
 library(lubridate)
 library(tidyr)
@@ -275,7 +276,8 @@ yearly.sales1 <- merge(merge(sales.year,sales.year.average,by="year"),
 ```
 
 
-```{r Plots code, error=TRUE}
+```R
+{r Plots code, error=TRUE}
 windowsFonts(A = windowsFont("Calibri"))
 mytheme <- 
   theme(plot.title = element_text(size = 15, hjust = 0.5, colour = "#56674D",
