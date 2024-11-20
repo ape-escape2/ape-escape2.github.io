@@ -1,4 +1,6 @@
 ## Sales Report using R and R Markdown
+[back to main page](README.md)
+
 
 This is an example graph created using the ggplot2 library.
 ![gambaR](screenshots/ggplot.portfolio.PNG)
