@@ -8,12 +8,12 @@ The Office TV-Show: Ever wondered how many lines each character has per episode?
 
 ## [2. Python + SQL + PowerBi: Restaurant Sales Dashboard](powerbi.page.md)
 
-A Sales Dashboard for my Restaurant
+A Sales Dashboard for my Restaurant.
 
 ![lagambapreview](screenshots/dashboard.PNG)
 
 ## [3. SQL + QGIS: US Election map](election.page.md)
 
-A Sales Dashboard for my Restaurant
+A map showing all counties that flipped from the 2016 to the 2020 elections. Data aggregated using SQL. Map created with QGIS.
 
 ![election](screenshots/flip_map1.png)
