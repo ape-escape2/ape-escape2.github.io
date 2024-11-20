@@ -17,3 +17,9 @@ A Sales Dashboard for my Restaurant.
 A map showing all counties that flipped from the 2016 to the 2020 elections. Data aggregated using SQL. Map created with QGIS.
 
 ![election](screenshots/flip_map1.png)
+
+## [4. R: Restaurant Sales Report](lagambaR.page.md)
+
+A detailes sales report for my restaurant using R in R-Studio.
+
+![gambaR](screenshots/ggplot.portfolio.PNG)
