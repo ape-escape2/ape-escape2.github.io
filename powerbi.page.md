@@ -195,64 +195,6 @@ conn.commit()
 
 ```
 
-
-```python
-#PAYOUT INFO
-#Load the CSV into a DataFrame and mergen the tables
-#links to csv files
-csv_profit = [r'C:\Users\HP\OneDrive\Pizzeria\Data\La Gamba Data - R\Payout information.csv']
-
-#delete existing tables
-cur.execute('''DROP Table if EXISTS profit;
-           ''')
-
-#Iterate over CSV files and import them as temporary tables
-for i, file in enumerate(csv_profit):
-    # Load CSV into a DataFrame
-    df_profit = pd.read_csv(file)
-
-     #replace spaces in column titles with '_'
-    df_profit.columns = df_profit.columns.str.replace(' ', '_')
-    
-    # Name temporary table uniquely for each file
-    temp_profit = f'temp_profit_{i}'
-
-    # Write DataFrame to temporary table in SQLite
-    df_profit.to_sql(temp_profit, conn, if_exists='replace', index=False)
-
-# UNION the temporary tables
-union_query_profit = ' UNION ALL '.join([f"SELECT Date,	Payout_Recipient, Payout_Amount, Payout_Reason FROM temp_profit_{i}"
-                                  for i in range(len(csv_profit))])
-
-#create final table with index
-cur.execute('''
-    CREATE TABLE profit (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    Date TEXT,
-    Payout_Recipient TEXT,
-    Payout_Amount TEXT,
-    Payout_Reason REAL
-);'''
-)
-    
-#add the union query to the index table    
-cur.executescript(
-    f"""WITH union_table_profit AS({union_query_profit})
-    INSERT INTO profit (Date,	Payout_Recipient, Payout_Amount, Payout_Reason)
-    SELECT Date, Payout_Recipient, Payout_Amount, Payout_Reason
-    FROM union_table_profit;"""
-)
-
-#drop the temporary tables
-for i in range(len(csv_profit)):
-    cur.execute(
-    f"DROP TABLE IF EXISTS temp_profit_{i}")
-    
-# Close the connection
-conn.commit()
-
-```
-
 ```python
 conn.close()
 ```
