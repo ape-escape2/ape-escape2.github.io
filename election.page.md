@@ -2,7 +2,7 @@
 
 [back to main page](README.md)
 
-![election](flip_map1)
+![election](flip_map1.png)
 
 ```SQL
 
