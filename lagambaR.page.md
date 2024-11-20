@@ -47,7 +47,6 @@ h3 {color: "black";
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(include = FALSE, echo = FALSE)
 ```
-# Sales Data
 ```{r Libraries,Data Import and Cleaning}
 library(lubridate)
 library(tidyr)
@@ -117,7 +116,8 @@ gamba.colors <- c("#56674D", "#EFB912", "#d44727", "#d17e7e", "#000000",
 
 ```
 
-```{r Data Frames}
+```R
+Data Frames
 #totals/day
 daily.total <-  cheques %>% 
   group_by(actual.date) %>% 
@@ -272,9 +272,6 @@ yearly.sales1 <- merge(merge(sales.year,sales.year.average,by="year"),
     group_by(year) %>% 
     mutate(running.total = cumsum(daily.total)) %>% 
     mutate(day.of.year = yday(actual.date)) 
-    
-
-
 ```
 
 
