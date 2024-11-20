@@ -1,5 +1,15 @@
 ## Webscraping
 
+[back to main page](README.md)
+
+I used Python to scrape a website containing all scripts for the TV show The Office (US) and create a visualization showing the lines per episode in cronological order. 
+
+The main packages used where BeautifulSoup, Pandas and Matplotlib.
+
+The final output was this line chart:
+
+![png](assets/office.output_6_0.png)
+
 Import the necessary libraries
 ```python
 import urllib.request, urllib.parse, urllib.error
@@ -214,15 +224,10 @@ g.fig.suptitle('The Office (US), Character Lines per Episode', y=1.05, fontsize 
 
 # Save the plot as a PNG file
 g.savefig("theoffice_lines.png")  # Provide the file name here
-plt.show()
-
 
 ```
 
-
-    
-![png](office.output_6_0.png)
-    
+   
 
 
 Some extra interesting analysis. Like who had lines in every episode and average lines per episode
