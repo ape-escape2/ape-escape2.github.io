@@ -4,10 +4,10 @@
 
 The Office TV-Show: Ever wondered how many lines each character has per episode? I have, and I used python to find out.
 
-![theofficepreview](assets/thumbnail.theoffice.PNG)
+![theofficepreview](screenshots/03_theoffice_lines.png)
 
 ## [2. Python + SQL + PowerBi: Restaurant Sales Dashboard](powerbi.page.md)
 
 A Sales Dashboard for my Restaurant
 
-![lagamba](powerbi.dashboard.png)
+![lagambapreview](powerbi.dashboard.png)
