@@ -10,4 +10,10 @@ The Office TV-Show: Ever wondered how many lines each character has per episode?
 
 A Sales Dashboard for my Restaurant
 
-![lagambapreview](powerbi.dashboard.png)
+![lagambapreview](screenshots/dashboard.PNG)
+
+## [3. SQL + QGIS: US Election map](election.page.md)
+
+A Sales Dashboard for my Restaurant
+
+![election](screenshots/elections.)
