@@ -16,4 +16,4 @@ A Sales Dashboard for my Restaurant
 
 A Sales Dashboard for my Restaurant
 
-![election](screenshots/elections.)
+![election](screenshots/flip_map1.png)
