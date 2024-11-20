@@ -8,7 +8,7 @@ The main packages used where BeautifulSoup, Pandas and Matplotlib.
 
 The final output was this line chart:
 
-![png](assets/office.output_6_0.png)
+![png](screenshots/03_theoffice_lines.png)
 
 Import the necessary libraries
 ```python
