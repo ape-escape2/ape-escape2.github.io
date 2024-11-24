@@ -3,5 +3,7 @@ logo: screenshots/logo.png
 description: A selection of my Data Analysis Projects.
 #show_downloads: true
 remote_theme: pages-themes/dinky@v0.2.0
+sass:
+  style: compressed
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
