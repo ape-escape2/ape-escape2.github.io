@@ -1,0 +1,16 @@
+---
+---
+
+@import 'jekyll-theme-dinky';
+
+pre {
+  max-width: 100%; /* Ensure it uses the full container width */
+  width: auto;     /* Allow it to adapt */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+code {
+  display: block;  /* Ensure it respects the parent's width */
+  white-space: pre-wrap; /* Wrap long lines */
+  word-break: break-word; /* Break lines if needed */
+}
