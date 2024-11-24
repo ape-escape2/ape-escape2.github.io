@@ -1,12 +1,12 @@
-## Webscraping
+## Webscraping #Python #Pandas #Matplotlib
 
-[back to main page](README.md)
+**[Back to main page](README.md)**
 
-I used Python to scrape a website containing all scripts for the TV show The Office (US) and create a visualization showing the lines per episode in cronological order. 
+I used Python to scrape a website containing all scripts for the **TV show The Office (US)** and create a visualization showing the lines per episode in cronological order and sorted by most to least average lines. 
 
 The main packages used where BeautifulSoup, Pandas and Matplotlib.
 
-The final output was this line chart:
+**The final output was this ridgeline plot**:
 
 ![png](screenshots/03_theoffice_lines.png)
 
@@ -20,9 +20,8 @@ from collections import Counter
 ```
 
 Scrape the website
+The episodes are distributed accross 3 subsequent pages. I could figure out how to automatize this, but given that it is only 3 pages, for now I post the links here.
 ```python
-#the episodes are distributed accross 3 subsequent pages. I could figure out how to automatize this, but given
-#that it is only 3 pages, for now I post the links here. So not perfect yet
 links = ['https://transcripts.foreverdreaming.org/viewforum.php?f=574',
           'https://transcripts.foreverdreaming.org/viewforum.php?f=574&start=78',
            'https://transcripts.foreverdreaming.org/viewforum.php?f=574&start=156' ]
@@ -32,8 +31,10 @@ search_results = []
 
 #base url that I need to access each page.
 base_url = 'https://transcripts.foreverdreaming.org/'
+```
 
-#loop through the 3 links (3 pages) and get all the links to the episode
+Loop through the 3 links (3 pages) and get all the individual links to each episode
+```python
 for link in links[:]: #to speed up the testing I started with [:1] to only check the 1st link
     
     # Use BeautifulSoup to parse the links
@@ -100,10 +101,6 @@ for link in links[:]: #to speed up the testing I started with [:1] to only check
         #change the list with correction
         line = [key_change.get(name,name) for name in line]
 
-        #for old_key, new_key in key_change.items():
-           # if old_key in occurrences:
-             #   occurrences[new_key] = occurrences.pop(old_key)
-
         #count how many lines each character had 
         occurrences = Counter(line)
 
@@ -116,17 +113,18 @@ for link in links[:]: #to speed up the testing I started with [:1] to only check
 
 Test if it worked
 ```python
-#print(search_results) #WORKS!!
+#print(search_results)
+#WORKS!!
 ```
 
-Convert to Pandas dataframe
+Convert the list to a Pandas dataframe
 ```python
 import pandas as pd
 
 #create an empty list of data frames
 dfs = []
 
-#loop through the dictionaries and format them as data frames using pandas. 
+#loop through the dictionary and format them as data frames using pandas. 
 for occurrences in search_results:
     df = pd.DataFrame([occurrences])
 
@@ -151,10 +149,6 @@ final_table
 final_table.to_pickle('Office_lines')
 ```
 
-Export to CSV
-```python
-final_table.to_csv(r'C:\Users\HP\OneDrive\Phyton\Portfolio/theoffice.csv', index = False)
-
 ```
 Create the visualization.
 Start by importing libraries
@@ -167,7 +161,7 @@ df = pd.read_pickle(r'C:\Users\HP\OneDrive\Phyton\Portfolio/Office_lines')
 #df
 ```
 
-
+Sort the characters by most to least average lines.
 ```python
 df = df.iloc[::-1].reset_index(drop=True) 
 
@@ -247,7 +241,7 @@ print(averages.sort_values(ascending = False))
 ```
 
     Columns containing 0: 
-    Index         True
+    
     Michael       True
     Dwight       False
     Jim           True
@@ -278,7 +272,7 @@ print(averages.sort_values(ascending = False))
     dtype: bool
     
     Average per character (only appearing espisodes): 
-    Index        92.000000
+    
     Michael      80.222222
     DeAngelo     39.500000
     Dwight       36.951087
