@@ -18,7 +18,7 @@ I created a Sales Dashboard for my restaurant, which was used weekly to support 
 ![lagambapreview](screenshots/powerbi1.PNG)
 
 ## [3. Detailed Restaurant Sales Report with R](lagambaR.page.md)
-**#R #RStudio**
+**#R #RStudio #tidyverse #ggplot2**
 
 I created a detailed sales report for my restaurant using R in RStudio. This report provided in-depth insights into our sales, enabling more comprehensive analysis.
 
