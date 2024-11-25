@@ -3,7 +3,7 @@
 ## [1. Landing My Job: Web Scraping Career Pages](job.page.md)
 **#python #beautifulSoup #pandas**
 
-<a href="job.page.md" style="text-decoration: underline;">Open Project</a>
+<a href="https://ape-escape2.github.io/job.page.html" style="text-decoration: underline;">Open Project</a>
 
 I used Python to scrape career pages I frequently visited, targeting keywords related to the jobs I was interested in.
 
@@ -14,7 +14,7 @@ I used Python to scrape career pages I frequently visited, targeting keywords re
 ## [2. Interactive Sales Dashboard for My Restaurant](powerbi.page.md)
 **#python #SQL #PowerBi**
 
-<u>[Open Project](powerbi.page.md)</u>
+<a href="https://ape-escape2.github.io/powerbi.page.html" style="text-decoration: underline;">Open Project</a>
 
 I created a Sales Dashboard for my restaurant, which was used weekly to support decision-making on performance and marketing strategies.
 
@@ -23,7 +23,7 @@ I created a Sales Dashboard for my restaurant, which was used weekly to support 
 ## [3. Detailed Restaurant Sales Report with R](lagambaR.page.md)
 **#R #RStudio #tidyverse #ggplot2**
 
-<u>[Open Project](lagambaR.page.md)</u>
+<a href="https://ape-escape2.github.io/lagambaR.page.html" style="text-decoration: underline;">Open Project</a>
 
 I created a detailed sales report for my restaurant using R in RStudio. This report provided in-depth insights into our sales, enabling more comprehensive analysis.
 
@@ -32,7 +32,7 @@ I created a detailed sales report for my restaurant using R in RStudio. This rep
 ## [4. US Election Flip Map: 2016 vs. 2020](election.page.md)
 **#SQL #QGIS**
 
-<u>[Open Project](election.page.md)</u>
+<a href="https://ape-escape2.github.io/election.page.html" style="text-decoration: underline;">Open Project</a>
 
 I created a map highlighting all counties that flipped between the 2016 and 2020 elections. The data was aggregated using SQL, and the map was designed in QGIS.
 
@@ -42,7 +42,7 @@ I created a map highlighting all counties that flipped between the 2016 and 2020
 ## [5. Analyzing TV Show Scripts: Lines Per Character in The Office](theoffice.page.md)
 **#python #beautifulSoup #pandas #matplotlib**
 
-<u>[Open Project](theoffice.page.md)</u>
+<a href="https://ape-escape2.github.io/theoffice.page.html" style="text-decoration: underline;">Open Project</a>
 
 The Office (US) TV Show:
 
