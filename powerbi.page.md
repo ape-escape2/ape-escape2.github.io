@@ -6,7 +6,7 @@ I created a Sales Dashboard for my restaurant, which was used weekly to support 
 
 The final output was this sales KPI dashboard. 
 
-*the values are randomized and don't corespond do real sales data*
+*the values are randomized and don't corespond to real sales data*
 
 ![lagamba](screenshots/powerbi1.PNG)
 
