@@ -2,7 +2,7 @@
 
 **Click on the project to view the code and process.**
 
-## [1. How did I find this job? Webscraping carreer pages!](job.page.md)
+## [1. How did I find this job? By webscraping carreer pages!](job.page.md)
 **#python #beautifulSoup #pandas**
 
 I used python to scrape carreer pages with keywords relevant to my carreer interests.
