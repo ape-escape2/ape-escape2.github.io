@@ -2,10 +2,7 @@
 
 [back to main page](README.md)
 
-I used Python to scrape through the carreer pages I was usually visiting using the keywords relevant to the jobs I was interested in. 
-Here you can see a few example pages. This saved me so much time, as I would just open the final CSV file and find all relevant jobs in the same place.
-I added date information so I could filter for jobs added during the last days.
-
+I used Python to scrape career pages I frequently visited, targeting keywords related to the jobs I was interested in. Below are a few example pages from the results. This approach saved me a significant amount of time, as I could simply open the final CSV file and view all relevant job listings in one place. I also included date information, allowing me to filter for jobs posted in the past few days.
 
 ![jobs](screenshots/jobpages2.PNG)
 
@@ -241,7 +238,7 @@ df_all = pd.concat([df,df1,df2])
 #df_all
 ```
 
-Safe it all to an CSV file
+Save it all to an CSV file
 ```python
 df_all.to_csv('04_job_listings.csv', index = False)
 ```
