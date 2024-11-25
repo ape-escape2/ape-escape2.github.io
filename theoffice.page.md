@@ -2,11 +2,11 @@
 
 **[Back to main page](README.md)**
 
-I used Python to scrape a website containing all scripts for the **TV show The Office (US)** and create a visualization showing the lines per episode in cronological order and sorted by most to least average lines. 
+I used Python to scrape a website hosting all the scripts for The Office (US) and created a visualization showing the number of lines per episode, both in chronological order and sorted by average lines from most to least.
 
-The main packages used where BeautifulSoup, Pandas and Matplotlib.
+The primary libraries I used were BeautifulSoup, Pandas, and Matplotlib.
 
-**The final output was this ridgeline plot**:
+**Here’s the final output: a ridgeline plot:**
 
 ![png](screenshots/03_theoffice_lines.png)
 
