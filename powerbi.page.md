@@ -4,9 +4,11 @@
 
 This is a dashboard I made for my restaurant using Python, SQL and PowerBi. The data is changed for the purpose of this portfolio.
 
-The final output was this sales KPI dashboard.
+The final output was this sales KPI dashboard. *the values are randomized and don't corespond do real sales data*
 
-![lagamba](screenshots/dashboard.PNG)
+![lagamba](screenshots/powerbi1.PNG)
+
+![lagamba2](screenshots/powerbi2.PNG)
 
 ```python
 import pandas as pd
