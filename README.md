@@ -15,7 +15,7 @@ I used python to scrape carreer pages with keywords relevant to my carreer inter
 
 A Sales Dashboard I created for my own Restaurant. The dashboard was used on a weekly basis for decision making regarding performance and marketing.
 
-![lagambapreview](screenshots/dashboard.PNG)
+![lagambapreview](screenshots/powerbi1.PNG)
 
 ## [3. Restaurant Sales Report](lagambaR.page.md)
 **#R #RStudio**
