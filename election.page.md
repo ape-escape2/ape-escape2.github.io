@@ -1,6 +1,6 @@
 ## US 2020 Election County Flip Map
 
-[back to main page](README.md)
+[Back to main page](README.md)
 
 ![election](screenshots/flip_map1.png)
 
