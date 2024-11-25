@@ -3,7 +3,7 @@
 ## [1. Landing My Job: Web Scraping Career Pages](job.page.md)
 **#python #beautifulSoup #pandas**
 
-<u>[Open Project](job.page.md)</u>
+<u>[[Open Project](job.page.md)]</u>
 
 I used Python to scrape career pages I frequently visited, targeting keywords related to the jobs I was interested in.
 
