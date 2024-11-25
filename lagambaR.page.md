@@ -2,10 +2,14 @@
 [back to main page](README.md)
 
 
-This is an example graph created using the ggplot2 library.
+This project showcases the power of R Markdown for creating dynamic, data-driven reports. Using RStudio, I analyzed real-restaurant-sales data to produce insightful visualizations, and this document captures the process and findings in a clear, reproducible format.
+
+Below is an example graph from the project, highlighting the distribution of sales between delivery apps and in-house. This single visualization demonstrates the level of detail and customization possible with R Markdown.
+
+*values are randomized and don't represent real sales-data*
 ![gambaR](screenshots/ggplot.portfolio.PNG)
 
-This is the code used to generate the R markdown file.
+Explore the code used to generate the R markdown file. First, you'll find some CSS formatting, then data cleaning and aggregation, and finally the ggplot2 code used for creating the visualizaitons.
 
 
 ```R
