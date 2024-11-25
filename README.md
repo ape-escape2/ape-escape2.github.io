@@ -1,13 +1,14 @@
 # Johannes Casera Project Portfolio
 
-## [1. Web-scraping and pandas visualization](theoffice.page.md)
-**#python #pandas #matplotlib**
+**Click on the project to view the code and process.**
 
-*The Office (US) TV-Show:* 
+## [1. How did I find this job? Webscraping carreer pages!](job.page.md)
+**#python #beautifulSoup #pandas**
 
-Ever wondered how many lines each character has per episode? I have, and I used python to find out.
+I used python to scrape carreer pages with keywords relevant to my carreer interests.
 
-![theofficepreview](screenshots/thumbnail.theoffice.PNG)
+![jobpages](screenshots/jobpages.PNG)
+
 
 ## [2. Restaurant Sales Dashboard](powerbi.page.md)
 **#python #SQL #PowerBi**
@@ -16,16 +17,26 @@ A Sales Dashboard I created for my own Restaurant. The dashboard was used on a w
 
 ![lagambapreview](screenshots/dashboard.PNG)
 
-## [3. US Election map](election.page.md)
+## [3. Restaurant Sales Report](lagambaR.page.md)
+**#R #RStudio**
+
+A detailes sales report for my restaurant using R in R-Studio. This report was used for a more detailed analysis of our sales.
+
+![gambaR](screenshots/ggplot.portfolio.PNG)
+
+## [4. US Election map](election.page.md)
 **#SQL #QGIS**
 
 A map showing all counties that flipped from the 2016 to the 2020 elections. Data aggregated using SQL. Map created in QGIS.
 
 ![election](screenshots/flip_map1.png)
 
-## [4. Restaurant Sales Report](lagambaR.page.md)
-**#R #RStudio**
 
-A detailes sales report for my restaurant using R in R-Studio. This report was used for a more detailed analysis of our sales.
+## [5. Web-scraping TV Show scripts](theoffice.page.md)
+**#python #beautifulSoup #pandas #matplotlib**
 
-![gambaR](screenshots/ggplot.portfolio.PNG)
+*The Office (US) TV-Show:* 
+
+Ever wondered how many lines each character has per episode? I have, and I used python to find out.
+
+![theofficepreview](screenshots/thumbnail.theoffice.PNG)
