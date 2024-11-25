@@ -7,7 +7,7 @@
 
 I used Python to scrape career pages I frequently visited, targeting keywords related to the jobs I was interested in.
 
-[![jobpages](screenshots/jobpages.PNG)](job.page.md)
+[![jobpages](screenshots/jobpages.PNG)](https://ape-escape2.github.io/job.page.html)
 
 
 ## [2. Interactive Sales Dashboard for My Restaurant](powerbi.page.md)
