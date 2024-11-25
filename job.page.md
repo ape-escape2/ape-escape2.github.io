@@ -1,6 +1,6 @@
 ## Scraping carreer pages using relevant key words
 
-[back to main page](README.md)
+[Back to main page](README.md)
 
 I used Python to scrape career pages I frequently visited, targeting keywords related to the jobs I was interested in. Below are a few example pages from the results. This approach saved me a significant amount of time, as I could simply open the final CSV file and view all relevant job listings in one place. I also included date information, allowing me to filter for jobs posted in the past few days.
 
