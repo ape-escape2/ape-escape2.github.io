@@ -1,5 +1,5 @@
 ## Sales Report using R and R Markdown
-[back to main page](README.md)
+[Back to main page](README.md)
 
 
 This project showcases the power of R Markdown for creating dynamic, data-driven reports. Using RStudio, I analyzed real-restaurant-sales data to produce insightful visualizations, and this document captures the process and findings in a clear, reproducible format.
